@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "caser-cipher"
+version = "0.1.0"
+description = ""
+authors = ["Hadeel H Al-Hawajreh <hadeelhhawajreh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nltk = "^3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.5.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
